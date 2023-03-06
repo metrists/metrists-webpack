@@ -1,0 +1,1 @@
+export { CopyMetristsFiles } from './src';
