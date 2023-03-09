@@ -1,1 +1,2 @@
-export { CopyMetristsFiles } from './src';
+import { CopyMetristsFiles } from './src';
+export default CopyMetristsFiles;
