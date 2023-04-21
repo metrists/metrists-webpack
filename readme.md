@@ -50,7 +50,7 @@ The best way to configure Metrists on your repository is to create a `.metristsr
 
 an example `.metristsrc`:
 
-```
+```json
 {
   "resolvePath": "src/locals",
   "fetcher": "github",
@@ -60,14 +60,13 @@ an example `.metristsrc`:
     "org": "env.LOCALS_ORG"
   }
 }
-
 ```
 
 ### Differentiating Build Path from Development
 
 By default, Metrists will copy paste the contents of your `resolvePath` argument in your build folder. If you wish to configure a different route inside the build, you can use the **`resolvePathBuild`** parameter, to differentiate your build path:
 
-```
+```json
 {
   "resolvePath": "src/locals",
   "resolvePathBuild": "locals",
@@ -78,7 +77,6 @@ By default, Metrists will copy paste the contents of your `resolvePath` argument
     "org": "env.LOCALS_ORG"
   }
 }
-
 ```
 
 ## Webpack Configuration
